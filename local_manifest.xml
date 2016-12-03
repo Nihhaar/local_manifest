@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Device repos -->
+	<project path="device/xiaomi/mocha" name="Nihhaar/android_device_xiaomi_mocha" remote="github" revision="master"/>
+	<project path="kernel/xiaomi/mocha" name="Nihhaar/android_kernel_xiaomi_mocha" remote="github" revision="master"/>
+
+</manifest>
