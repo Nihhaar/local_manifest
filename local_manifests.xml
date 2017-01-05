@@ -2,7 +2,10 @@
 <manifest>
 
 	<!-- Device repos -->
-	<project path="device/xiaomi/mocha" name="Nihhaar/android_device_xiaomi_mocha" remote="github" revision="master"/>
-	<project path="kernel/xiaomi/mocha" name="Nihhaar/android_kernel_xiaomi_mocha" remote="github" revision="master"/>
+	<project path="device/xiaomi/mocha" name="Nihhaar/android_device_xiaomi_mocha" remote="github" revision="cm-12.1"/>
+	<project path="kernel/xiaomi/mocha" name="Nihhaar/android_kernel_xiaomi_mocha" remote="github" revision="cm-12.1"/>
+	<project path="vendor/xiaomi/mocha" name="Nihhaar/android_vendor_xiaomi_mocha" remote="github" revision="cm-12.1"/>
+
+	<project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-12.1" />
 
 </manifest>
